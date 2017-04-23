@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.servman.zero.marvel" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".verPersonajeActivity"
+            android:label="@string/title_activity_ver_personaje" >
+        </activity>
+        <activity
+            android:name=".verComicsActivity"
+            android:label="@string/title_activity_ver_comics" >
+        </activity>
+        <activity
+            android:name=".mostrarPersonajeActivity"
+            android:label="@string/title_activity_mostrar_personaje" >
+        </activity>
+        <activity
+            android:name=".mostrarComics"
+            android:label="@string/title_activity_mostrar_comics" >
+        </activity>
+    </application>
+
+</manifest>

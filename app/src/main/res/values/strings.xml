@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">marvel</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menubtn1">Personaje</string>
+    <string name="menubtn2">Comics</string>
+    <string name="title_activity_ver_personaje">Personajes</string>
+    <string name="title_activity_ver_comics">Comics</string>
+    <string name="title_activity_mostrar_personaje">Mostrar Personaje</string>
+    <string name="title_activity_mostrar_comics">mostrar Comic</string>
+</resources>
